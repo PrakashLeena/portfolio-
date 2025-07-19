@@ -1420,10 +1420,21 @@ p span{
         padding: 10px 0;
         margin-bottom: 10px;
     }
-    #education-top .education-detail {
+    #education-top .eaducation1,
+    #education-top .education2 {
         color: #150734;
-        font-size: 1rem;
-        margin: 6px 0;
+        font-size: 0.9rem;
+        margin: 4px 0;
+        display: block;
+        line-height: 1.4;
+    }
+    #education-top .eaducation1 {
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #education-top .education2 {
+        font-weight: 400;
+        font-size: 0.85rem;
     }
     
 }
@@ -1601,12 +1612,24 @@ p span{
 
 /* General improvements for all breakpoints */
 @media (max-width: 991.98px) {
-    #education-top .contact-detail {
+    #education-top .eaducation1,
+    #education-top .education2 {
         display: block;
-        margin: 8px 0;
+        margin: 6px 0;
+        font-size: 0.9rem;
     }
     #education-top {
         text-align: center;
+        padding: 12px 15px;
+        margin-bottom: 0;
+    }
+    #education-top .eaducation1 {
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    #education-top .education2 {
+        font-size: 0.85rem;
+        font-weight: 400;
     }
 }
 
